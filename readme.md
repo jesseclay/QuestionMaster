@@ -6,7 +6,9 @@ To use:
 --------
 
 Install ruby aws libraries:
+
 	gem install ruby-aws
 
 Configure libraries with your aws credentials:
+
 	ruby-aws
