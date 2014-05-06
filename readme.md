@@ -15,9 +15,10 @@ Configure libraries with your aws credentials:
 
 To Post A Task
 ---------------
-In the "live_tests" folders there are two files, a .properties file (with properties of the MT task) and a .question file (with the xml & html of the question).
+In the "live_tests" folder there are two files, a .properties file (with properties of the MT task) and a .question file (with the xml & html of the question).
 
 To post a task to MT run:
+
 	ruby post_to_MT .question_file .properties_file
 
 where .question_file and .properties file is the directory to the question and properties file.
