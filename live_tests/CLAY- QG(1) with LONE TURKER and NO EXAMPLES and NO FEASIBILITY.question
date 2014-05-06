@@ -1,0 +1,130 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+        <FormattedContent><![CDATA[
+      <h2>Instructions</h2>
+      Read this text and write a challenging question that can be answered by 1-2 sentences in the text. Write 1 correct answer and 3 incorrect (but feasible) answers in the boxes below your question (four options in total). Try to make the options realistic and challenging.
+      <br/>
+      <h3>Evaluation Criteria</h3>
+      <ul>
+        <li>Read the passage below.</li>
+        <li>Write a challenging question about this text that is answered by 1 - 2 sentences in the text.</li>
+        <li>Write one (1) correct answer in the area below it.</li>
+        <li>Write three (3) incorrect but feasible answers/options below it.</li>
+        <li>Try to make the question and answers challenging so that someone will have had to read the text to know the correct answer.</li>
+        <li>No award will be given for submissions that are not questions, that do not have one correct answer and three incorrect answers, or that are not relevant to the text.</li>
+        <li>Thank you!</li>
+      </ul>
+      <br/>
+      <h2>Passage:</h2>
+        <p>That extinguishment, incidentally, may explain in part why his approach to the Compromise of 1850 was the least successful οf his forays into the compromise arena. That is to say, it was not related to one of his presidential candidacies. This may also explain why his unusually sharp sense of floor tactics failed him in the Senate in 1850. To be sure, Clay was old, tired, sick, and out of sorts by 1850. Further, the specific issues to be compromised that year were far more numerous, technical, and complex than they had been in either 1821 or 1833.</p>
+
+        <p>Still, one must agree with Professor Holman Hamilton's assessment that while Clay's participation in the debate was useful, even inspiring, chief credit for working out the Compromise of 1850 must go to Stephen A. Douglas of Illinois. Actually, it may be better for Clay’s historical reputation if we disassociate him altogether from the 1850 debacle. Not only was it the least effective of the traditional "big three" compromises usually attributed to him, it was certainly the most transitory. Thanks to that part of the deal that was the Fugitive Slave Act (which Clay vigorously supported), the Compromise of 1850 was virtually stillborn.</p>
+
+        <p><i>Source: Henry Clay and the Politics of Compromise and Non-Compromise by Robert Seager</i></p>
+    ]]></FormattedContent>
+
+  </Overview>
+  <Question>
+    <QuestionIdentifier>question</QuestionIdentifier>
+    <DisplayName>Question</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        Challenging question that is answered by 1 - 2 sentences in the above passage:
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <Length minLength="5" maxLength="999" />
+        </Constraints>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>correctanswer</QuestionIdentifier>
+    <DisplayName>Correct Answer</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        Correct answer:
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <Length minLength="4" maxLength="999" />
+        </Constraints>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>incorrectanswer1</QuestionIdentifier>
+    <DisplayName>Incorrect Answer</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        Incorrect answer:
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <Length minLength="4" maxLength="999" />
+        </Constraints>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>incorrectanswer2</QuestionIdentifier>
+    <DisplayName>Incorrect Answer</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        Incorrect answer:
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <Length minLength="4" maxLength="999" />
+        </Constraints>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>incorrectanswer3</QuestionIdentifier>
+    <DisplayName>Incorrect Answer</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        Incorrect answer:
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <Length minLength="4" maxLength="999" />
+        </Constraints>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question> 
+  <Question>
+    <QuestionIdentifier>comments</QuestionIdentifier>
+    <QuestionContent>
+      <Text>
+        Please help us improve this HIT by including any Questions and/or Comments (optional):
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <NumberOfLinesSuggestion>10</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>
